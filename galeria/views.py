@@ -3,6 +3,6 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def galeria(request):
+def imagem(request):
 
-    return HttpResponse("<h2>Here are we</h2>")
+    return render(request, 'galeria/imagem.html')
